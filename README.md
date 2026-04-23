@@ -1,6 +1,6 @@
 # REGISTRVM
 
-REGISTRVM is an open-source Renaissance-inspired display typeface developed as a university project for the Type Design course at RUFA - Rome University of Fine Arts by Mattia Capomagi and Leonardo Borri.
+REGISTRVM is an open-source Renaissance-inspired display typeface developed as a university project for the Type Design course at RUFA - Rome University of Fine Arts by Mattia Capomagi and Leonardo Borri, under the supervision of teacher and type designer Antonio Pace.
 
 The typeface is not a design drawn entirely from scratch. It is a typographic revival based on a historical specimen found in the Vatican Archives, with additional influence from Garamond-style old-style roman forms.
 
