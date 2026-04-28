@@ -30,29 +30,6 @@ REGISTRVM inherits the following formal qualities from its historical source:
 
 ---
 
-## Status
-
-| Field | Value |
-|---|---|
-| Version | `1.0` |
-| Authors | Mattia Capomagi, Leonardo Borri |
-| Supervisor | Antonio Pace |
-| Institution | RUFA – Rome University of Fine Arts |
-| Format | OpenType CFF (`.otf`) |
-| Source format | Glyphs 3 (`.glyphs`) |
-| Release status | Early release — active development |
-
-### Repository Contents
-
-| File | Description |
-|---|---|
-| `REGISTRVM.otf` | Installable OpenType font (production build) |
-| `REGISTRVM.glyphs` | Original source file, editable in Glyphs 3 |
-| `LICENSE` | MIT License |
-| `CONTRIBUTING.md` | Guidelines for contributors |
-| `CODE_OF_CONDUCT.md` | Community standards |
-
----
 
 ## Character Set
 

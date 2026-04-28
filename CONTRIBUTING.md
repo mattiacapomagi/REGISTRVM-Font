@@ -52,7 +52,7 @@ Contributions are welcome in the following areas, roughly in order of priority:
 ### Non-Drawing Contributions
 - **Bug reports** — Spacing errors, glyph rendering issues, missing Unicode mappings, incorrect metrics.
 - **Testing** — Real-world layout testing and specimens help identify issues.
-- **Documentation** — Improvements to the README, specimen images, or usage examples.
+- **Documentation** — Improvements to the README (including the Character Set table), specimen images, or usage examples.
 
 ---
 
@@ -109,9 +109,11 @@ Fork → Branch → Edit Source → Export OTF → Test → Pull Request
 
 4. **Test the font** in a real layout environment (see testing checklist below).
 
-5. **Commit** your changes with a clear, descriptive message:
+5. **Update `README.md`** if your contribution adds or removes glyphs. The **Character Set** table in the README must stay in sync with the actual font coverage. If you added a new glyph category (e.g., numerals, lowercase), add a corresponding row to the table. If you expanded an existing category, update the detail column accordingly.
+
+6. **Commit** your changes with a clear, descriptive message:
    ```bash
-   git add REGISTRVM.glyphs REGISTRVM.otf
+   git add REGISTRVM.glyphs REGISTRVM.otf README.md
    git commit -m "feat: add numerals 0-9, oldstyle figure style"
    ```
 
@@ -227,6 +229,7 @@ Before submitting, confirm:
 - [ ] The exported font installs and renders correctly on macOS.
 - [ ] New glyphs follow the Design Standards defined above.
 - [ ] Glyph names follow the AGL naming convention.
+- [ ] The **Character Set table in `README.md`** has been updated to reflect any new or expanded glyph coverage.
 - [ ] The commit message follows the format described above.
 - [ ] Screenshots or specimen images are included for any visual change.
 
